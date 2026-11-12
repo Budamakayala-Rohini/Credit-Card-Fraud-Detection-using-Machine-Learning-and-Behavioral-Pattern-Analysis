@@ -1,0 +1,40 @@
+1. Importing the packages
+2. Exploring the dataset 
+	- Credit Card fraud Data
+3. Visualization Data using Seaborn and Matplotlib
+4. Data Processing
+	- Removing Duplicate Data
+	- Drop Cleaning  
+
+6. Feature Selection 
+	- Selecting the X and y  Data
+	- Reducing the features for analysis using Select K Best
+7. Data balancing
+	- SMOTE ENN
+8. Appending Selected features to X and target column to y 
+9. Splitting the data to train and test
+10. Building the model
+	- LSTM
+	- GRU
+	- MLP
+	- Hybrid (LSTM + GRU + MLP)
+	- RF
+	- DT
+	- KNN
+	- Voting classifier (KNN + LightGBM with soft voting)
+11. Training and Building the model
+12. Flask Framework with Sqlite for signup and signin
+13. User gives input
+14. the given input preprocessed and with trained model is used for predicting the readmission
+15. final outcome is displayed
+
+Dataset user link: https://www.kaggle.com/datasets/arockiaselciaa/creditcardcsv
+
+Extension:
+-------------------
+
+LSTM, GRU, MLP existing algorithms. proposed is Hybrid (LSTM + GRU + MLP)
+
+as extension will add ensemble models like voting classifier combination of individual models 
+
+Along with this extension we used Flask Framework for UI for user provides input for prediction using trained models for dataset
